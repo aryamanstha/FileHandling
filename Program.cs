@@ -1,4 +1,7 @@
 ﻿using System;
+using static FileHandling.StudentCollection;
+using System.Collections.Generic;
+
 namespace FileHandling
 {
     public class Program
@@ -50,6 +53,7 @@ namespace FileHandling
         public static void Main(string[] args)
         {
             FileSave();
+            StudentCollection.DisplayList();
         }
     }
 }
